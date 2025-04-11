@@ -14,6 +14,7 @@
 #include <iostream>
 #include <Windows.h>
 #include <conio.h>
+#include <stdio.h>
 
 namespace ConsoleUtils
 {
@@ -21,6 +22,29 @@ namespace ConsoleUtils
 	{
 		COORD pos = { x,y };
 		SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+	}
+}
+
+void InputPlayerKey(int& x, int& y)
+{
+	if (_kbhit)
+	{
+		if (GetAsyncKeyState(VK_LEFT))
+		{
+			x--;
+		}
+		else if (GetAsyncKeyState(VK_RIGHT))
+		{
+			x++;
+		}
+		else if (GetAsyncKeyState(VK_UP))
+		{
+			y--;
+		}
+		else if (GetAsyncKeyState(VK_DOWN))
+		{
+			y++;
+		}
 	}
 }
 
@@ -54,15 +78,26 @@ int main()
 			std::cout << "플레이어의 정보";
 			ConsoleUtils::GoToXY(10, 11);
 			std::cout << "플레이어의 이름 :" << name;
+			_getch();
 		}
 		else
 		{
-
+			break;
 		}
-		_getch();
 		system("cls");
 	}
 
+	int x = 0, y = 0;
+
+	while (true)
+	{
+		system("cls");
+		InputPlayerKey(x, y);
+		std::cout << "플레이어의 좌표 : " << "[" << x << "," << y << "]" << std::endl;
+		ConsoleUtils::GoToXY(x, y);
+		std::cout << "★";
+		Sleep(100);
+	}
 
 }
 
