@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // 입출력 함수를 사용하기 위한 cpp 라이브러리
 
 
 /*
@@ -16,7 +16,8 @@
 // ACOM에서 만든 goods BCOM에서 만든 goods
 // 문제점 : 특정 키워드의 이름들이 같으면 컴퓨터가 구분해서 판별할 수 없다. - 에러가 발생
 // 변수의 이름앞에 이름공간을 추가해준다.
-// ACOM - good
+// ACOM - good다.
+// BCOM - good다.
 
 namespace ACOM
 {
