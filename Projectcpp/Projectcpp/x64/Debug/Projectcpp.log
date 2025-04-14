@@ -1,2 +1,4 @@
 ﻿  main.cpp
+C:\Users\user\Desktop\cppProject2025\Projectcpp\Projectcpp\main.cpp(35,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Desktop\cppProject2025\Projectcpp\Projectcpp\main.cpp(35,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
   Projectcpp.vcxproj -> C:\Users\user\Desktop\cppProject2025\Projectcpp\x64\Debug\Projectcpp.exe
