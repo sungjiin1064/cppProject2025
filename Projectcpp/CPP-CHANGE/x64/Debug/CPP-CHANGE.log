@@ -1,0 +1,29 @@
+﻿  Character.cpp
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(4,11): error C2374: 'player': 재정의. 여러 번 초기화했습니다.
+      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,11):
+      'player' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(4,11): error C2086: 'Character player': 재정의
+      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,11):
+      'player' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(5,11): error C2374: 'slime': 재정의. 여러 번 초기화했습니다.
+      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,19):
+      'slime' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(5,11): error C2086: 'Character slime': 재정의
+      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,19):
+      'slime' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(6,15): error C2374: 'boss': 재정의. 여러 번 초기화했습니다.
+      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(25,15):
+      'boss' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(6,15): error C2086: 'BossCharacter boss': 재정의
+      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(25,15):
+      'boss' 선언을 참조하십시오.
+  
+  main.cpp
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\main.cpp(7,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\main.cpp(7,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  코드를 생성하고 있습니다...

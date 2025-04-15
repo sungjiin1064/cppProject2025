@@ -39,7 +39,7 @@ int main()
 	// 타입 item1 이름 = {이름, 가격, 수, 타입};
 
 	Item item2("Potion", 50, 1, USEABLE);
-	Item item3("Potion", 50, 1, USEABLE);
+	Item item3("ad", 50, 1, ARMOR);
 
 	item1.ShowItemInfo();
 	item2.ShowItemInfo();
