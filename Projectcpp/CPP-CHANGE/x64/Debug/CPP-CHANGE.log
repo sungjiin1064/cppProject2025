@@ -1,29 +1,160 @@
 ﻿  Character.cpp
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(4,11): error C2374: 'player': 재정의. 여러 번 초기화했습니다.
-      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,11):
+  Intro.cpp
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(38,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(66,4): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(71,22): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(72,4): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(74,4): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(85,5): error C3861: 'PlayerAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(86,16): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(86,5): error C3861: 'BossAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(90,8): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(94,5): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(96,15): error C2065: 'Stage': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(96,5): error C3861: 'ShowStage': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(97,15): error C2065: 'inventory': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(97,5): error C3861: 'ShowGold': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(98,19): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(98,26): error C2065: 'inventory': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(98,5): error C3861: 'BossGoldDrop': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(99,5): error C3861: 'PlayerAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(100,16): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(100,5): error C3861: 'BossAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(6,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(6,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(10,11): error C2374: 'player': 재정의. 여러 번 초기화했습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(112,11):
       'player' 선언을 참조하십시오.
   
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(4,11): error C2086: 'Character player': 재정의
-      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,11):
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(10,11): error C2086: 'Character player': 재정의
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(112,11):
       'player' 선언을 참조하십시오.
   
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(5,11): error C2374: 'slime': 재정의. 여러 번 초기화했습니다.
-      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,19):
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(11,11): error C2374: 'slime': 재정의. 여러 번 초기화했습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(112,19):
       'slime' 선언을 참조하십시오.
   
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(5,11): error C2086: 'Character slime': 재정의
-      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,19):
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(11,11): error C2086: 'Character slime': 재정의
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(112,19):
       'slime' 선언을 참조하십시오.
   
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(6,15): error C2374: 'boss': 재정의. 여러 번 초기화했습니다.
-      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(25,15):
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(12,15): error C2374: 'boss': 재정의. 여러 번 초기화했습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(113,15):
       'boss' 선언을 참조하십시오.
   
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(6,15): error C2086: 'BossCharacter boss': 재정의
-      C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(25,15):
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(12,15): error C2086: 'BossCharacter boss': 재정의
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(113,15):
       'boss' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.cpp(37,17): error C2084: 'void Character::Motion(void)' 함수에 이미 본문이 있습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(17,7):
+      'Character::Motion'의 이전 정의를 참조하십시오.
   
   main.cpp
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\main.cpp(7,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\user\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\main.cpp(7,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(24,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(38,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(66,4): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(71,22): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(72,4): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(74,4): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(85,5): error C3861: 'PlayerAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(86,16): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(86,5): error C3861: 'BossAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(90,8): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(94,5): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(96,15): error C2065: 'Stage': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(96,5): error C3861: 'ShowStage': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(97,15): error C2065: 'inventory': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(97,5): error C3861: 'ShowGold': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(98,19): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(98,26): error C2065: 'inventory': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(98,5): error C3861: 'BossGoldDrop': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(99,5): error C3861: 'PlayerAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(100,16): error C2065: 'boss': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\CPP-CHANGE\Character.h(100,5): error C3861: 'BossAction': 식별자를 찾을 수 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
   코드를 생성하고 있습니다...

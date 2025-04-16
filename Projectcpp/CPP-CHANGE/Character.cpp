@@ -97,3 +97,29 @@ void Character::ShowBattle()
 
 	Sleep(500);
 }
+
+void Character::PlayerAction(Character* player, int action)
+{
+	GoToXY(player->x - 1, player->y - 2);
+	printf("%s : %d", player->name, player->health);
+	GoToXY(player->x, player->y);
+	if (action == 1)
+	{
+		printf("%s", player->action1);
+	}
+	else if (action == 2) printf("%s", player->action2);
+	else if (action == 3) printf("%s", player->action3);
+	else if (action == 4) printf("%s", player->action4);
+}
+
+void Character::SlimeAction(Character* slime, int action)
+{
+	GoToXY(slime->x + 1, slime->y - 2);
+	printf("%s : %d", slime->name, slime->health);
+	GoToXY(slime->x, slime->y);
+	if (action == 1) printf("%s", slime->action1); // 기본 상태
+	else if (action == 2) printf("%s", slime->action2); // 공격 상태
+	else if (action == 3) printf("%s", slime->action3); // 사망 상태
+	else if (action == 4) printf("%s", slime->action4);
+}
+

@@ -1,4 +1,4 @@
-
+#pragma once
 #define SLIME_WIDTH 12
 #define SLIME_HEIGHT 3
 
