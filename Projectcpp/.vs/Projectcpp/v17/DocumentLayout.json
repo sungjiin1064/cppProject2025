@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Intro.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Intro.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Intro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Intro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\GameHeader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\GameHeader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50692C82-55C8-4251-92D8-1DE8FE52884A}|Ch4\\Ch4.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch4\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,33 +94,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Intro.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Intro.cpp",
               "RelativeDocumentMoniker": "CPP-CHANGE\\Intro.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Intro.cpp",
               "RelativeToolTip": "CPP-CHANGE\\Intro.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-15T13:32:22.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Intro.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Intro.h",
               "RelativeDocumentMoniker": "CPP-CHANGE\\Intro.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Intro.h",
               "RelativeToolTip": "CPP-CHANGE\\Intro.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-15T13:31:03.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameHeader.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\GameHeader.h",
               "RelativeDocumentMoniker": "CPP-CHANGE\\GameHeader.h",
@@ -133,26 +133,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Character.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.h",
               "RelativeDocumentMoniker": "CPP-CHANGE\\Character.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.h",
               "RelativeToolTip": "CPP-CHANGE\\Character.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-15T12:47:01.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\main.cpp",
               "RelativeDocumentMoniker": "CPP-CHANGE\\main.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\main.cpp",
               "RelativeToolTip": "CPP-CHANGE\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-15T11:59:24.215Z",
               "EditorCaption": ""
@@ -165,7 +165,7 @@
               "RelativeDocumentMoniker": "Ch4\\Item.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch4\\Item.h",
               "RelativeToolTip": "Ch4\\Item.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-15T08:01:37.339Z",
               "EditorCaption": ""
@@ -180,8 +180,7 @@
               "RelativeToolTip": "Ch4\\main.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-15T07:04:13.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:04:13.56Z"
             },
             {
               "$type": "Document",
@@ -193,18 +192,17 @@
               "RelativeToolTip": "Ch4\\Item.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-15T08:10:18.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T08:10:18.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Character.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.cpp",
               "RelativeDocumentMoniker": "CPP-CHANGE\\Character.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Character.cpp",
               "RelativeToolTip": "CPP-CHANGE\\Character.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-15T13:17:51.399Z",
               "EditorCaption": ""
@@ -219,8 +217,7 @@
               "RelativeToolTip": "Ch4\\Player.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-15T08:26:39.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T08:26:39.025Z"
             },
             {
               "$type": "Document",
@@ -232,8 +229,7 @@
               "RelativeToolTip": "Ch4\\Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-15T08:25:41.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T08:25:41.803Z"
             },
             {
               "$type": "Document",
@@ -245,8 +241,7 @@
               "RelativeToolTip": "Ch4\\Game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-15T08:14:47.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T08:14:47.896Z"
             },
             {
               "$type": "Document",
@@ -258,8 +253,7 @@
               "RelativeToolTip": "Ch3\\main.cpp",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-14T07:02:37.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T07:02:37.089Z"
             },
             {
               "$type": "Document",

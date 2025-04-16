@@ -10,7 +10,7 @@
 
 int main()
 {
-	Intro(&player, &slime);
+	//Intro(&player, &slime);
 
 	while (true)
 	{
