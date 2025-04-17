@@ -1,7 +1,7 @@
 #include "Intro.h"
 #include "Character.h"
 
-void Intro(Character player, Character slime)
+void Intro()
 {
 	int L = 4;
 	int R = 4;

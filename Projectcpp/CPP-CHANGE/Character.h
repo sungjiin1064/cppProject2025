@@ -104,5 +104,3 @@ struct BossCharacter
 
 Character player, slime;
 BossCharacter boss;
-
-
