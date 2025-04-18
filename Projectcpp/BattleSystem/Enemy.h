@@ -2,8 +2,6 @@
 #include "Common.h"
 #include "Image.h"
 
-
-
 struct Enemy
 {
 	int HP;
@@ -15,12 +13,14 @@ struct Enemy
 
 	int posX;
 	int posY;
+	bool isDeath;
 
 	Enemy(int HP, int ATK, int DEF, string name, char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], BattleState battleState)
 		: HP(HP), ATK(ATK), DEF(DEF), name(name), battleState(battleState)
 	{
 		posX = 30;
 		posY = 5;
+		isDeath = false;
 
 		for (int y = 0; y < IMAGEHEIGHT; y++)
 		{
@@ -41,5 +41,9 @@ struct Enemy
 	bool IsIdle();
 
 	void SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1]);
+
+	// 전투를 위한 기능
+	void Attacked(int damage);
+	void Defence();
 };
 

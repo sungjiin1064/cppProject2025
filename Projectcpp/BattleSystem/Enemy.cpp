@@ -54,7 +54,7 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 
 	if (IsBattle())
 	{
-		posX = 10;
+		posX = 30;
 		
 	}
 	else
@@ -65,4 +65,23 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 	}
 	
 	ShowImage();
+}
+
+void Enemy::Attacked(int damage)
+{
+	// 데미지 감소 규칙
+	damage = damage - DEF;
+	if (damage <= 0)
+	{
+		damage = 1;
+	}
+
+	HP -= damage;
+
+	if (HP <= 0)
+	{
+		isDeath = true;
+	}
+
+	// HP가 0보다 작거나 같으면 몬스터가 죽었다는 사실을 알려야한다. bool is Deaht
 }

@@ -22,6 +22,7 @@
 
 #include "GameManager.h"
 
+
 /*
 * Enemy 객체
 * GameManager 객체
@@ -31,24 +32,26 @@ int main()
 {
 
 	Enemy Slime(100, 10, 1, "슬라임", SlimeMove, IDLE);
-	GameManager Game(Slime);
-
-	
-	
+	Enemy GoBlin(100, 10, 1, "슬라임", SlimeMove, IDLE);
+	Player player(100, 10, 1, "모험가", PlayerIdle, IDLE);
+	GameManager Game(Slime, player);
 		
-	// 타이틀 화면을 보여줘
-	// Press Any Key To Start
-	//_getch();
+	Game.GameLoop();
+		
+	
 
-	while (true)
+
+	/*while (true)
 	{		
+		Game.player.SetBattleImage(PlayerIdle);
 		Game.currentEnemy.SetBattleImage(SlimeIdle); 		
 		Sleep(500);
 		system("cls");
+		Game.player.SetBattleImage(PlayerMove);
 		Game.currentEnemy.SetBattleImage(SlimeMove);
 		Sleep(500);
 		system("cls");
 
-		// Slime 현재 상태가 배틀 상태가 되면 SlimeMove-> SlimeBattle
-	}
+		
+	}*/
 }
