@@ -19,17 +19,22 @@
 */
 
 
-#include "Enemy.h"
 
+#include "GameManager.h"
+
+/*
+* Enemy 객체
+* GameManager 객체
+*/
 
 int main()
 {
-	Enemy Slime(100, 10, 1, "슬라임", SlimeMove);
 
-	int slimeX = 30;
-	int slimeY = 5;
-	int playerX = 0; /////////////////
-	int playerY = 0; ///////////////////
+	Enemy Slime(100, 10, 1, "슬라임", SlimeMove, IDLE);
+	GameManager Game(Slime);
+
+	
+	
 		
 	// 타이틀 화면을 보여줘
 	// Press Any Key To Start
@@ -37,14 +42,10 @@ int main()
 
 	while (true)
 	{		
-		Slime.SetBattleImage(SlimeIdle, slimeX, slimeY); 
-		Slime.SetBattleImage(PlayerIdle, playerX, playerY); ///////////
-	
+		Game.currentEnemy.SetBattleImage(SlimeIdle); 		
 		Sleep(500);
 		system("cls");
-
-		Slime.SetBattleImage(SlimeMove, slimeX, slimeY); 
-		Slime.SetBattleImage(PlayerBattle, playerX, playerY); ///////////////
+		Game.currentEnemy.SetBattleImage(SlimeMove);
 		Sleep(500);
 		system("cls");
 

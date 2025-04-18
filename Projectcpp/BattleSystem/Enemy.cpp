@@ -11,7 +11,7 @@ void Enemy::ChangeImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 	}
 }
 
-void Enemy::ShowImage(int& posX, int& posY)
+void Enemy::ShowImage()
 {
 	for (int y = 0; y < IMAGEHEIGHT; y++)
 	{
@@ -24,9 +24,9 @@ void Enemy::ShowImage(int& posX, int& posY)
 	}
 }
 
-bool Enemy::IsBattle(int x, int y)
+bool Enemy::IsBattle()
 {
-	if (x <= 10) 	
+	if (posX <= 10) 	
 	{
 		return true;
 
@@ -38,21 +38,21 @@ bool Enemy::IsBattle(int x, int y)
 	}
 }
 
-bool Enemy::IsWalk(int x, int y)
+bool Enemy::IsWalk()
 {
 	return false;
 }
 
-bool Enemy::IsIdle(int x, int y)
+bool Enemy::IsIdle()
 {
 	return false;
 }
 
-void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, int& posY)
+void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 {
 	ChangeImage(Image);
 
-	if (IsBattle(posX, posY))
+	if (IsBattle())
 	{
 		posX = 10;
 		
@@ -64,5 +64,5 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, i
 		
 	}
 	
-	ShowImage(posX, posY);
+	ShowImage();
 }
