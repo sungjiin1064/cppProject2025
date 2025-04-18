@@ -26,7 +26,7 @@ void Enemy::ShowImage(int& posX, int& posY)
 
 bool Enemy::IsBattle(int x, int y)
 {
-	if (x <= 10)
+	if (x <= 10) 	
 	{
 		return true;
 
@@ -55,11 +55,13 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, i
 	if (IsBattle(posX, posY))
 	{
 		posX = 10;
+		
 	}
 	else
 	{
 		// 적군 마다 특별한 행동을 하는 함수 호출
 		posX--;
+		
 	}
 	
 	ShowImage(posX, posY);

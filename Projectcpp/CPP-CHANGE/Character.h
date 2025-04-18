@@ -5,12 +5,22 @@ void GoToXY(int x, int y);
 
 struct Character
 {
-	int x, y, attack, health;
-	std::string name;
-	char action1[SLIME_WIDTH + 1];
-	char action2[SLIME_WIDTH + 1];
-	char action3[SLIME_WIDTH + 1];
-	char action4[SLIME_WIDTH + 1];
+	int x;
+	int y;
+	int attack;
+	int health;
+	string name;
+	char action1[UNIT_HEIGHT][UNIT_WIDTH + 1];
+	char action2[UNIT_HEIGHT][UNIT_WIDTH + 1];
+	char action3[UNIT_HEIGHT][UNIT_WIDTH + 1];
+	char action4[UNIT_HEIGHT][UNIT_WIDTH + 1];
+
+	Character(int x, int y, int attack, int health, string name,
+		char action1[UNIT_HEIGHT][UNIT_WIDTH + 1],
+		char action2[UNIT_HEIGHT][UNIT_WIDTH + 1],
+		char action3[UNIT_HEIGHT][UNIT_WIDTH + 1],
+		char action4[UNIT_HEIGHT][UNIT_WIDTH + 1])
+		: x(x), y(y), attack(attack), health(health), name(name)
 		
 	void ShowBattle();
 
@@ -38,69 +48,5 @@ struct Character
 	
 };
 
-struct BossCharacter
-{
-	int x, y, attack, health;
-	std::string name;
-	char action1[SLIME_HEIGHT][SLIME_WIDTH + 1];
-	char action2[SLIME_HEIGHT][SLIME_WIDTH + 1];
-	char action3[SLIME_HEIGHT][SLIME_WIDTH + 1];
-	char action4[SLIME_HEIGHT][SLIME_WIDTH + 1];
 
-	void BattleWithBoss(Character* player)
-	{
-		//ShowStage(Stage, 0, 0);
-		//ShowGold(&inventory);
-
-		static int ShowAttack = true;
-
-		if (ShowAttack % 2 != false)
-		{
-			boss.action1;
-			player->action1;
-		}
-		else
-		{
-			player->health -= boss.attack;
-			boss.health -= player->attack;
-
-			boss.action2;
-			player->action2;
-
-			if (player->health <= 0)
-			{
-				system("cls");                  // 막타
-
-				//ShowStage(Stage, 0, 0);
-				//ShowGold(&inventory);
-
-				player->health = 0;
-				PlayerAction(player, 3);
-				BossAction(boss, 4);
-
-				Sleep(1000);
-			}
-			if (boss->health <= 0)
-			{
-				system("cls");                    // 막타
-
-				boss->health = 0;
-
-				ShowStage(Stage, 0, 0);
-				ShowGold(&inventory);
-				BossGoldDrop(&boss, &inventory);
-				PlayerAction(player, 1);
-				BossAction(boss, 3);
-
-				Sleep(1000);
-
-
-			}
-		}
-		ShowAttack++;
-		Sleep(500);
-	}
-};
-
-Character player, slime;
-BossCharacter boss;
+Character player, slime, bossSlime;

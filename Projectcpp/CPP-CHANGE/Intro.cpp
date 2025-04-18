@@ -8,9 +8,9 @@ void Intro()
 	while (true)
 	{
 		GoToXY(4, L);
-		std::cout << player.action1 << std::endl;
+		cout << player.action1 << endl;
 		GoToXY(10, R);
-		std::cout << slime.action1 << std::endl;
+		cout << slime.action1 << endl;
 
 		if (_kbhit())
 		{

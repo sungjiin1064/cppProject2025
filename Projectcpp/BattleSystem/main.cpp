@@ -28,6 +28,8 @@ int main()
 
 	int slimeX = 30;
 	int slimeY = 5;
+	int playerX = 0; /////////////////
+	int playerY = 0; ///////////////////
 		
 	// 타이틀 화면을 보여줘
 	// Press Any Key To Start
@@ -35,11 +37,14 @@ int main()
 
 	while (true)
 	{		
-		Slime.SetBattleImage(SlimeIdle, slimeX, slimeY);
+		Slime.SetBattleImage(SlimeIdle, slimeX, slimeY); 
+		Slime.SetBattleImage(PlayerIdle, playerX, playerY); ///////////
+	
 		Sleep(500);
 		system("cls");
 
-		Slime.SetBattleImage(SlimeMove, slimeX, slimeY);
+		Slime.SetBattleImage(SlimeMove, slimeX, slimeY); 
+		Slime.SetBattleImage(PlayerBattle, playerX, playerY); ///////////////
 		Sleep(500);
 		system("cls");
 

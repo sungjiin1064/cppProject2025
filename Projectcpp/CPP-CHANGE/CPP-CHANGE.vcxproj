@@ -128,12 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Image.cpp" />
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="GameHeader.h" />
+    <ClInclude Include="Image.h" />
     <ClInclude Include="Intro.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
