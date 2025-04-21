@@ -1,4 +1,4 @@
 #pragma once
-#include "GameHeader.h"
+#include "Common.h"
 
-void Intro();
+//void Intro();
