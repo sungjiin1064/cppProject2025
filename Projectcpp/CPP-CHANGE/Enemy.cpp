@@ -1,8 +1,8 @@
 #include "Enemy.h"
 
-void Enemy::MoveToPoint()
+void Enemy::MoveToPoint(int posX)
 {
-	if (posX <= 30)
+	if (  <= 24)
 	{
 		IsBattle();
 	}
@@ -49,6 +49,6 @@ void Enemy::SetBattle(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
 	ChangeImage(Image);
 	MoveToPoint();
 	ShowImage();
-	Sleep(500);
+	//Sleep(200);
 
 }

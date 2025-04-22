@@ -2,6 +2,7 @@
 
 #include "Common.h"
 #include "Image.h"
+#include "Player.h"
 
 struct Enemy
 {
@@ -26,8 +27,8 @@ struct Enemy
 	}
 
 	void ChangeImage(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1]);
+	void MoveToPoint(int posX);
 	void ShowImage();
-	void MoveToPoint();
 
 	bool IsBattle();
 
