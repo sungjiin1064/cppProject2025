@@ -1,10 +1,10 @@
 
 #include "Common.h"
 #include "Character.h"
+#include "User.h"
 
 int main()
 {
-	//Character  cha;
 	Barbarian  baba;
 	Paladin    pal;
 	Amazon     ama;
@@ -27,4 +27,11 @@ int main()
 	selectCharacter1.Attack();
 	selectCharacter2.Attack();
 	selectCharacter3.Attack();
+
+	User user;
+
+
+	user.SelectClass(&baba);
+
+	user.Attack();
 } 

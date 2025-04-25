@@ -1,0 +1,27 @@
+﻿  main.cpp
+  Weapon.cpp
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.h(18,2): error C2535: 'Weapon::Weapon(std::string,int,int)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.h(16,2):
+      'Weapon::Weapon' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\main.cpp(8,15): error C2661: 'Weapon::Weapon': 오버로드된 함수에서 4개의 인수를 사용하지 않습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\main.cpp(8,15):
+      인수 목록 '(const char [7], int, int, int)'을(를) 일치시키는 동안
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\main.cpp(11,16): error C2661: 'Weapon::Weapon': 오버로드된 함수에서 4개의 인수를 사용하지 않습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\main.cpp(11,16):
+      인수 목록 '(const char [7], int, int, int)'을(를) 일치시키는 동안
+  
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.h(18,2): error C2535: 'Weapon::Weapon(std::string,int,int)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  (소스 파일 'Weapon.cpp'을(를) 컴파일하는 중)
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.h(16,2):
+      'Weapon::Weapon' 선언을 참조하십시오.
+  
+  코드를 생성하고 있습니다...
+C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.cpp(10,47): error C3867: 'Weapon::DoUpgrade': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+      C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.cpp(10,47):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch10\Weapon.cpp(10,18):
+          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
+  
