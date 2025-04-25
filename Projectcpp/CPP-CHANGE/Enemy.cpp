@@ -1,10 +1,10 @@
 #include "Enemy.h"
 
-void Enemy::MoveToPoint(int posX)
+void Enemy::MoveToPoint(CharacterAll& player, CharacterAll& slime)
 {
-	if (  <= 24)
+	if ( posX <= 24)
 	{
-		IsBattle();
+		IsBattle(player, slime);
 	}
 	else
 	{
@@ -12,43 +12,37 @@ void Enemy::MoveToPoint(int posX)
 	}
 }
 
-bool Enemy::IsBattle()
+void Enemy::SetBattle(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1], CharacterAll& player, CharacterAll& slime)
 {
-
-	return false;
-}
-
-void Enemy::ChangeImage(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
-{
-	for (int y = 0;y < UNIT_HEIGHT;y++)
-	{
-		for (int x = 0;x < UNIT_WIDTH;x++)
-		{
-			this->Image[y][x] = Image[y][x];
-		}
-	}
-}
-
-void Enemy::ShowImage()
-{
-	for (int y = 0;y < UNIT_HEIGHT;y++)
-	{
-		for (int x = 0;x < UNIT_WIDTH;x++)
-		{
-			GoToXY(posX + x, posY + y);
-			
-			cout << Image[y][x];
-		}
-		cout << endl;
-	}
-
-}
-
-void Enemy::SetBattle(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
-{
-	ChangeImage(Image);
-	MoveToPoint();
-	ShowImage();
+	ChangeImage();
+	MoveToPoint(player,slime);
+	ShowImage(Image);
 	//Sleep(200);
 
+}
+
+void Enemy::IsBattle(CharacterAll& player, CharacterAll& slime)
+{
+	static bool ShowAttack = true;
+
+	if (ShowAttack)
+	{
+		PlayerIdle;
+		SlimeIdle;
+	}
+	else
+	{
+		player.hp -= slime.attack;
+		slime.hp -= player.attack;
+
+		PlayerBattle;
+		SlimeBattle;
+
+		if (player.hp <= 0 && slime.hp <= 0)
+		{
+			player.hp = 0;
+			slime.hp = 0;
+		}
+	}
+	ShowAttack != ShowAttack;
 }

@@ -17,6 +17,39 @@ public:
 
 };
 
+ 
+class BattleManager
+{
+private:
+	Player player;
+	Enemy enemy;
+
+	bool isEnd;
+
+	void EnemyTurn()
+	{
+		enemy.Action();
+	}
+	void PlayerTurn()
+	{
+		
+	}
+public:
+	void Battle()
+	{
+		while (true)
+		{
+			PlayerTurn();
+			EnemyTurn();
+
+			if (isEnd)
+			{
+				break;
+			}
+		}
+	}
+};
+
 int main()
 {
 	Skill skill;
@@ -27,5 +60,6 @@ int main()
 
 	Character player1;
 
-	player1.Attacked();
+	Enemy enemy;
+	enemy.Action();
 }

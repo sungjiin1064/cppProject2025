@@ -7,6 +7,6 @@ void Character::UseSkill(Skill& skill)
 
 void Character::UseHP()
 {
-	HP_protected -= 10;
+	 
 	HP2 -= 10;
 }

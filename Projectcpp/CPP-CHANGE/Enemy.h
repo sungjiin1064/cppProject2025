@@ -1,39 +1,35 @@
 #pragma once
 
-#include "Common.h"
-#include "Image.h"
-#include "Player.h"
+//#include "Common.h"
+//#include "Image.h"
+#include "Character.h"
 
-struct Enemy
+class Enemy : public CharacterAll
 {
-	int posX;
-	int posY;
-	int attack;
-	int hp;
-	string name;
-	char Image[UNIT_HEIGHT][UNIT_WIDTH + 1];
-
+public:
 	Enemy(int posX, int posY, int attack, int hp, string name, char Image[UNIT_HEIGHT][UNIT_WIDTH + 1]) :
-		posX(posX), posY(posY), attack(attack), hp(hp), name(name)
-	{
-		for (int y = 0;y < UNIT_HEIGHT;y++)
-		{
-			for (int x = 0;x < UNIT_WIDTH;x++)
-			{
-				this->Image[y][x] = Image[y][x];
-			}
-		}
-	
+		CharacterAll(posX, posY, attack, hp, name, Image) {
 	}
 
-	void ChangeImage(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1]);
-	void MoveToPoint(int posX);
-	void ShowImage();
+	void MoveToPoint(CharacterAll& player, CharacterAll& slime);
 
-	bool IsBattle();
+	void ChangeImage()
+	{
+		CharacterAll::ChangeImage();
+	}
 
-	void SetBattle(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1]);
+	void ShowImage(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
+	{
+		CharacterAll::ShowImage(Image);
+	}
 
+	void SetBattle(char Image[UNIT_HEIGHT][UNIT_WIDTH + 1], CharacterAll& player, CharacterAll& slime);
 
+	void IsBattle(CharacterAll& player, CharacterAll& slime);
 	
+	
+
+
+
+
 };

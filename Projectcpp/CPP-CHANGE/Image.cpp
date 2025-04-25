@@ -9,7 +9,7 @@ char PlayerIdle[UNIT_HEIGHT][UNIT_WIDTH + 1] =
 	{"      /|      "},
 	{"      / \\    "}
 };
-char playerMove[UNIT_HEIGHT][UNIT_WIDTH + 1] =
+char PlayerMove[UNIT_HEIGHT][UNIT_WIDTH + 1] =
 {
 	{"         :    "},
 	{"         +    "},

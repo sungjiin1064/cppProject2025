@@ -33,7 +33,7 @@ void Enemy::BehaviorAI()
 	}
 	else
 	{
-		currentPatern = COWARD;
+		currentPatern = COWARD;		
 	}
 }
 
@@ -44,8 +44,14 @@ void Enemy::Action()
 	switch (currentPatern)
 	{
 	case AGGRESSIVE:
+		Attacked();
+		break;
 	case DEFENSIVE:
+		Defence();
+		break;
 	case COWARD:
+		Recovery();
+		break;
 	}
 }
 

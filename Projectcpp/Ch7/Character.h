@@ -6,9 +6,8 @@
 class Character : public Entity
 {
 private:
-	 
-public:
-	
+	int HP;
+public:	
 	void UseSkill(Skill& skill);
 
 	void UseHP();
