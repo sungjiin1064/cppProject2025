@@ -4,38 +4,55 @@
 
 class Weapon
 {
-private:
+protected:
 	string name;
 	int lv;
-	int baseATK;
+	int baseAtk;
 	int weight;
 
 	int DoUpgrade();
 
 public:
-	Weapon(string name, int base, int weight)
-		: name(name),lv(1),baseATK(base),weight(weight){ }	
-	Weapon(string name, int base, int weight)
-		: name(name), lv(lv), baseATK(base), weight(weight){ }
+	Weapon(string namee, int baseAtkk, int weightt)
+		: name(namee), lv(1), baseAtk(baseAtkk), weight(weightt) { }
+	Weapon(string namee, int lvv, int baseAtkk, int weightt)
+		: name(namee), lv(lvv), baseAtk(baseAtkk), weight(weightt){};
 
 public:
 	void ShowInfo();
-	void Attack();
+	virtual void Attack();
 
 };
 
-class Spaer : public Weapon
+class Spear : public Weapon
 {
+private: 
+	int specialAtk;
 public:
-	Spear(string name, int base, int weight)
-		:Weapon(name,lv,base,weight){ }
+	
+	Spear(string namee, int lvv,int baseAttkk, int weightt, int specialAtkk )
+		: Weapon(namee,lvv,baseAttkk,weightt), specialAtk(specialAtkk) { }
 public:
-	void Attack();
+	void Attack() override;
 };
 
 class Sword : public Weapon
 {
 public:
-	void Attack();
+	Sword(string namee, int lvv, int baseAttkk, int weightt)
+		: Weapon(namee,lvv, baseAttkk,weightt) { }
+
+public:
+	void Attack() override;
 };
 
+class  Arrow : public Weapon
+{
+public:
+	Arrow(string namee, int lvv, int baseAttkk, int weightt)
+		: Weapon(namee,lvv, baseAttkk,weightt) { }
+
+public:
+	void Attack() override;
+
+};

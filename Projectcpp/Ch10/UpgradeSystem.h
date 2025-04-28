@@ -3,8 +3,9 @@
 #include "Common.h"
 #include "Weapon.h"
 
-class UpgradeSystem
+class UpgradeSystem 
 {
-
+public:
+	void UnitAtk(Weapon* weapon);
 };
 

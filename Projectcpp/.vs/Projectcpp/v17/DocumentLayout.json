@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Select.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Select.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Select.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Select.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +38,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.cpp",
-              "RelativeDocumentMoniker": "DIABLO\\User.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.cpp",
-              "RelativeToolTip": "DIABLO\\User.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T08:42:41.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.h",
-              "RelativeDocumentMoniker": "DIABLO\\User.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.h",
-              "RelativeToolTip": "DIABLO\\User.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Image.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Image.h",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\Image.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Image.h",
+              "RelativeToolTip": "CPP-CHANGE\\Image.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-25T08:41:37.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Character.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.cpp",
-              "RelativeDocumentMoniker": "DIABLO\\Character.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.cpp",
-              "RelativeToolTip": "DIABLO\\Character.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T08:40:49.158Z",
+              "WhenOpened": "2025-04-28T03:17:41.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\main.cpp",
-              "RelativeDocumentMoniker": "DIABLO\\main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\main.cpp",
-              "RelativeToolTip": "DIABLO\\main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T08:12:51.368Z",
+              "Title": "GameManager.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\GameManager.h",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\GameManager.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\GameManager.h",
+              "RelativeToolTip": "CPP-CHANGE\\GameManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-28T03:05:18.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Character.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.h",
-              "RelativeDocumentMoniker": "DIABLO\\Character.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.h",
-              "RelativeToolTip": "DIABLO\\Character.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Player.h",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\Player.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Player.h",
+              "RelativeToolTip": "CPP-CHANGE\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-25T08:05:58.155Z",
+              "WhenOpened": "2025-04-28T03:02:13.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Select.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Select.cpp",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\Select.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Select.cpp",
+              "RelativeToolTip": "CPP-CHANGE\\Select.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-28T02:57:19.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Select.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Select.h",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\Select.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Select.h",
+              "RelativeToolTip": "CPP-CHANGE\\Select.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-28T02:56:33.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Image.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Image.cpp",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\Image.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Image.cpp",
+              "RelativeToolTip": "CPP-CHANGE\\Image.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-28T02:39:39.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\main.cpp",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\main.cpp",
+              "RelativeToolTip": "CPP-CHANGE\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-28T02:34:51.21Z",
               "EditorCaption": ""
             }
           ]

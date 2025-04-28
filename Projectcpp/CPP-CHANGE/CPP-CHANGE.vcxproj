@@ -131,9 +131,9 @@
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Image.cpp" />
-    <ClCompile Include="Intro.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Select.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Battle.h" />
@@ -142,9 +142,9 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Image.h" />
-    <ClInclude Include="Intro.h" />
     <ClInclude Include="Move.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Select.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

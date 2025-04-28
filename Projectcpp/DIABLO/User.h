@@ -4,12 +4,12 @@
 
 class User
 {
-private:
-	CharacterClass* myClass;
+public:
+	CharacterClass* myclass;
 
 public:
-	void SelectClass(CharacterClass* cClass);
-
+	void SelectClass(CharacterClass* selectClass);
 	void Attack();
 };
+
 

@@ -8,13 +8,15 @@ class GameManager
 {
 public:
 
-	Player userPlayer;
-	Enemy currentEnemy;
+	Player Sword;
+	Player Arrow;
+	Enemy Slime;
 
 	//GameManager(Enemy enemy, Player player) : currentEnemy(enemy), userPlayer(player) {}
 	GameManager()
-		: userPlayer(10, 10, 11, 100, "기 사", PlayerIdle),
-		currentEnemy(40, 10, 6, 50, "슬라임", SlimeIdle) { }
+		: Sword(10, 10, 11, 100, "기 사", SwordIdle),
+		Arrow(10, 10, 11, 100, "기 사", ArrowIdle),
+		Slime(40, 10, 6, 50, "슬라임", SlimeIdle) { }
 	
 	
 	

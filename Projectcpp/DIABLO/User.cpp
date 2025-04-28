@@ -1,11 +1,11 @@
 #include "User.h"
 
-void User::SelectClass(CharacterClass* cClass)
+void User::SelectClass(CharacterClass* selectClass)
 {
-	myClass = cClass;
+	myclass = selectClass;
 }
 
 void User::Attack()
 {
-	myClass->Attack();
+	myclass->Attack();
 }

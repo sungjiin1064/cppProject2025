@@ -7,9 +7,13 @@
 
 
 
-extern char PlayerIdle[UNIT_HEIGHT][UNIT_WIDTH + 1];
-extern char playerMove[UNIT_HEIGHT][UNIT_WIDTH + 1];
-extern char PlayerBattle[UNIT_HEIGHT][UNIT_WIDTH + 1];
+extern char SwordIdle[UNIT_HEIGHT][UNIT_WIDTH + 1];
+extern char SwordMove[UNIT_HEIGHT][UNIT_WIDTH + 1];
+extern char SwordBattle[UNIT_HEIGHT][UNIT_WIDTH + 1];
+
+extern char ArrowIdle[UNIT_HEIGHT][UNIT_WIDTH + 1];
+extern char ArrowMove[UNIT_HEIGHT][UNIT_WIDTH + 1];
+extern char ArrowBattle[UNIT_HEIGHT][UNIT_WIDTH + 1];
 
 extern char SlimeIdle[UNIT_HEIGHT][UNIT_WIDTH + 1];
 extern char SlimeMove[UNIT_HEIGHT][UNIT_WIDTH + 1];
