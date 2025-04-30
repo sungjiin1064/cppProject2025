@@ -19,8 +19,8 @@ protected:
 	virtual void SetShape();
 
 public:
-	Runner() : run(0),isEnd(false), minSpeed(1), maxSpeed(2), symbol("E") {}
-	Runner(string symbol) : run(0), isEnd(false), minSpeed(1), maxSpeed(2), symbol(symbol) {}
+	Runner() : run(0),isEnd(false), minSpeed(1), maxSpeed(3), symbol("E") {}
+	Runner(string symbol) : run(0), isEnd(false), minSpeed(1), maxSpeed(3), symbol(symbol) {}
 
 	void Run();
 	bool CheckEndLine(int length);
@@ -40,5 +40,5 @@ public:
 	}
 	Player(string symbol) : Runner(symbol) {}
 
-
+	//
 };

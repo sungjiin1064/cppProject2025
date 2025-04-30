@@ -23,6 +23,5 @@ int RandomUtil::GetRandomInt(int range)
 void ConsolUtil::GoToXY(int x, int y)
 {
 	static COORD pos = { x,y };
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
-	
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);	
 }

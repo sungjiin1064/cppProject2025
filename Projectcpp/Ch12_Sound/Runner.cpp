@@ -41,7 +41,7 @@ bool Runner::CheckEndLine(int length)
 
 void Player::SetMaxSpeed()
 {
-	int applyMaxSpeed = maxSpeed + 5;
+	int applyMaxSpeed = maxSpeed + 1;
 	run += RandomUtil::GetRandomInt(maxSpeed);
 }
 

@@ -128,12 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Runner.cpp" />
     <ClCompile Include="SoundUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="Runner.h" />
     <ClInclude Include="SoundUtil.h" />
   </ItemGroup>

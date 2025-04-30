@@ -8,10 +8,15 @@
 
 #include "Common.h"
 #include "SoundUtil.h"
-#include "Runner.h"
+#include "GameManager.h"
+
+// ctrl+r+r 이름바꾸기
 
 int main()
 {
+	//GameManager game;
+	//game.Play();
+
 	SoundUtil::PlayBGM(_T("sound.wav"));
 
 	Runner* runA = new Player();
@@ -25,7 +30,7 @@ int main()
 
 	while (true)
 	{
-		Sleep(100);
+		Sleep(1000);
 		system("cls");
 
 		cout << line << endl;
