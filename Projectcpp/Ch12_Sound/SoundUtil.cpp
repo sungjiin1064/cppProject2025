@@ -20,8 +20,9 @@ int RandomUtil::GetRandomInt(int range)
 	return dist(gen);
 }
 
-void ConsolUtil::GoToXY(int x, int y)
+void ConsoleUtil::GoToXY(int x, int y)
 {
 	static COORD pos = { x,y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);	
 }
+

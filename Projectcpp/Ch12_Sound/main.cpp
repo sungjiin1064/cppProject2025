@@ -14,59 +14,11 @@
 
 int main()
 {
-	//GameManager game;
-	//game.Play();
+	GameManager game;
+	game.Play();
 
-	SoundUtil::PlayBGM(_T("sound.wav"));
+	
 
-	Runner* runA = new Player();
-	Runner* runB = new Runner("B");
-	Runner* runC = new Runner("C");
-	Runner* runD = new Runner("D");
-
-
-	string line = "==============================================";
-	int endLine = line.length();
-
-	while (true)
-	{
-		Sleep(1000);
-		system("cls");
-
-		cout << line << endl;
-		runA->Run();
-		runB->Run();
-		runC->Run();
-		runD->Run();
-
-		cout << line << endl;
-
-		if (runA->CheckEndLine(endLine)
-			|| runB->CheckEndLine(endLine)
-			|| runC->CheckEndLine(endLine)
-			|| runD->CheckEndLine(endLine))
-
-		{
-			cout << "경기 종료" << endl;
-			break;
-		}
-	}
-
-	if (runA->CheckEndLine(endLine))
-	{
-		cout << "A가 1등을 했습니다." << endl;
-	}
-	if (runB->CheckEndLine(endLine))
-	{
-		cout << "B가 1등을 했습니다." << endl;
-	}
-	if (runC->CheckEndLine(endLine))
-	{
-		cout << "C가 1등을 했습니다." << endl;
-	}
-	if (runD->CheckEndLine(endLine))
-	{
-		cout << "D가 1등을 했습니다." << endl;
-	}
+	
 	
 }

@@ -1,51 +1,56 @@
 #pragma once
 
-#include "Common.h"
+//#include "Common.h"
+#include "Image.h"
 
-
-
-enum AttackType
+class Character
 {
+private:
+
+public:
+	int posX;
+	int posY;
+	int ATK;
+	int HP;
+	string NAME;
+	char Image[UNIT_HEIGHT][UNIT_WIDTH+1];
+
+	Character(int x, int y, int attack, int hp, string name,char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
+		: posX(x), posY(y), ATK(attack), HP(hp),NAME(name) 
+	{
+		for (int y = 0;y < UNIT_HEIGHT;y++)
+		{
+			for (int x = 0;x < UNIT_WIDTH + 1;x++)
+			{
+				this->Image[y][x] = Image[y][x];
+			}
+		}
+	}
+
+	void SelectImage();
+	
 
 };
 
-class CharacterClass 
+class Barbarian : public Character
 {
-public: 
-	string name;
-public:
-	CharacterClass(string namee) : name(namee) {}
 public:
 	
-	void ShowInfo();
-	virtual void Attack() {};
+public:
+	Barbarian(int x, int y, int attack, int hp, string name, char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
+		: Character(x,y,attack,hp,name,Image) { }
 };
 
-class Barbarian : public CharacterClass
+class Amazon : public Character
 {
 public:
-	Barbarian(string namee): CharacterClass(namee){}
+
 public:
-	void Attack();
+	Amazon(int x, int y, int attack, int hp, string name, char Image[UNIT_HEIGHT][UNIT_WIDTH + 1])
+		: Character(x, y, attack, hp, name, Image) { }
 };
 
-class Paladin : public CharacterClass
-{
-public:
-	Paladin(string namee) : CharacterClass(namee) {}
-public:
-	void Attack();
-};
 
-class Amazon : public CharacterClass
-{
-public:
-	Amazon(string namee) : CharacterClass(namee) {}
-public:
-	void Attack();
-};
-
-//class Sorcerress : public CharacterClass
 
 
 

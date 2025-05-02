@@ -5,11 +5,11 @@
 class User
 {
 public:
-	CharacterClass* myclass;
+	//CharacterClass* myclass;
 
 public:
-	void SelectClass(CharacterClass* selectClass);
-	void Attack();
+//	void SelectClass(CharacterClass* selectClass);
+	//void Attack();
 };
 
 

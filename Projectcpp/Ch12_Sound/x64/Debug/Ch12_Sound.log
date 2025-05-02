@@ -1,3 +1,9 @@
-﻿  main.cpp
-C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\Ch12_Sound\main.cpp(27,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Ch12_Sound.vcxproj -> C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\x64\Debug\Ch12_Sound.exe
+﻿  GameManager.cpp
+C:\Users\user\Desktop\cppProject2025\Projectcpp\Ch12_Sound\GameManager.cpp(36,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+  Runner.cpp
+  SoundUtil.cpp
+C:\Users\user\Desktop\cppProject2025\Projectcpp\Ch12_Sound\SoundUtil.cpp(25,23): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Desktop\cppProject2025\Projectcpp\Ch12_Sound\SoundUtil.cpp(25,25): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  코드를 생성하고 있습니다...
+  Ch12_Sound.vcxproj -> C:\Users\user\Desktop\cppProject2025\Projectcpp\x64\Debug\Ch12_Sound.exe

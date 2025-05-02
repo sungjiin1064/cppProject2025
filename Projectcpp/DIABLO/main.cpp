@@ -1,21 +1,16 @@
 
 #include "Common.h"
-#include "Character.h"
-#include "User.h"
+#include "Choice.h"
 
 int main()
 {
-	Barbarian  baba = {"바바리안"};
+	/*Barbarian  baba = {"바바리안"};
 	Paladin    pal = { "팔라딘" };
 	Amazon     ama = { "아마존" };
-	//Sorcerress so = { "소서리스" };	
+	Sorcerress so = { "소서리스" };	*/
 
-	User user;
-	user.SelectClass(&pal);
-	user.Attack();
-
-
-} 
+	SelectCharacter();
+}
 
 
 

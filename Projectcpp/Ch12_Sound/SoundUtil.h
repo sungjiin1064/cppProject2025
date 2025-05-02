@@ -17,7 +17,7 @@ public:
 	static int GetRandomInt(int range);
 };
 
-class ConsolUtil
+class ConsoleUtil
 {
 public:
 	static void GoToXY(int x, int y);

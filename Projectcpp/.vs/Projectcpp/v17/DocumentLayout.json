@@ -1,38 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Choice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Choice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Choice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Choice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16D2EFF9-FFC9-4BB0-B27A-B8135D828C9F}|CPP-CHANGE\\CPP-CHANGE.vcxproj|solutionrelative:CPP-CHANGE\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\SoundUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\SoundUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FE8CDDF1-56BD-488A-B53A-D301424E3EC4}|Ch12_Sound\\Ch12_Sound.vcxproj|solutionrelative:Ch12_Sound\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD3D5331-A9B8-44BB-B43D-D125F01B9AAD}|DIABLO\\DIABLO.vcxproj|solutionrelative:DIABLO\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +66,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\main.cpp",
-              "RelativeDocumentMoniker": "Ch12_Sound\\main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\main.cpp",
-              "RelativeToolTip": "Ch12_Sound\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-30T01:58:59.596Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SoundUtil.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.h",
-              "RelativeDocumentMoniker": "Ch12_Sound\\SoundUtil.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.h",
-              "RelativeToolTip": "Ch12_Sound\\SoundUtil.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T02:00:32.343Z",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\main.cpp",
+              "RelativeDocumentMoniker": "DIABLO\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\main.cpp",
+              "RelativeToolTip": "DIABLO\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T02:11:53.899Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\GameManager.h",
-              "RelativeDocumentMoniker": "Ch12_Sound\\GameManager.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\GameManager.h",
-              "RelativeToolTip": "Ch12_Sound\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T07:02:31.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\GameManager.cpp",
-              "RelativeDocumentMoniker": "Ch12_Sound\\GameManager.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\GameManager.cpp",
-              "RelativeToolTip": "Ch12_Sound\\GameManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-30T07:13:58.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Runner.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Runner.h",
-              "RelativeDocumentMoniker": "Ch12_Sound\\Runner.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Runner.h",
-              "RelativeToolTip": "Ch12_Sound\\Runner.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T04:26:53.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Runner.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Runner.cpp",
-              "RelativeDocumentMoniker": "Ch12_Sound\\Runner.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Runner.cpp",
-              "RelativeToolTip": "Ch12_Sound\\Runner.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-30T04:27:00.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SoundUtil.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.cpp",
-              "RelativeDocumentMoniker": "Ch12_Sound\\SoundUtil.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.cpp",
-              "RelativeToolTip": "Ch12_Sound\\SoundUtil.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Player.cpp",
+              "RelativeDocumentMoniker": "CPP-CHANGE\\Player.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\CPP-CHANGE\\Player.cpp",
+              "RelativeToolTip": "CPP-CHANGE\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-30T02:01:10.698Z",
+              "WhenOpened": "2025-05-02T03:12:22.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Common.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Common.cpp",
+              "RelativeDocumentMoniker": "DIABLO\\Common.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Common.cpp",
+              "RelativeToolTip": "DIABLO\\Common.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T02:50:53.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\main.cpp",
+              "RelativeDocumentMoniker": "Ch12_Sound\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\main.cpp",
+              "RelativeToolTip": "Ch12_Sound\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T02:02:00.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.cpp",
+              "RelativeDocumentMoniker": "DIABLO\\User.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.cpp",
+              "RelativeToolTip": "DIABLO\\User.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T01:53:33.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.h",
+              "RelativeDocumentMoniker": "DIABLO\\User.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\User.h",
+              "RelativeToolTip": "DIABLO\\User.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T01:48:11.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.h",
+              "RelativeDocumentMoniker": "DIABLO\\Character.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.h",
+              "RelativeToolTip": "DIABLO\\Character.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T01:17:42.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.cpp",
+              "RelativeDocumentMoniker": "DIABLO\\Character.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Character.cpp",
+              "RelativeToolTip": "DIABLO\\Character.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T01:08:40.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SoundUtil.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.h",
+              "RelativeDocumentMoniker": "Ch12_Sound\\SoundUtil.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\SoundUtil.h",
+              "RelativeToolTip": "Ch12_Sound\\SoundUtil.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T02:00:32.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Image.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Image.h",
+              "RelativeDocumentMoniker": "DIABLO\\Image.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Image.h",
+              "RelativeToolTip": "DIABLO\\Image.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T00:41:28.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Common.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Common.h",
-              "RelativeDocumentMoniker": "Ch12_Sound\\Common.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\Projectcpp\\Ch12_Sound\\Common.h",
-              "RelativeToolTip": "Ch12_Sound\\Common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Common.h",
+              "RelativeDocumentMoniker": "DIABLO\\Common.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Common.h",
+              "RelativeToolTip": "DIABLO\\Common.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T02:08:40.94Z",
+              "WhenOpened": "2025-05-01T02:40:34.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Choice.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Choice.h",
+              "RelativeDocumentMoniker": "DIABLO\\Choice.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Choice.h",
+              "RelativeToolTip": "DIABLO\\Choice.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-01T02:12:06.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Choice.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Choice.cpp",
+              "RelativeDocumentMoniker": "DIABLO\\Choice.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Choice.cpp",
+              "RelativeToolTip": "DIABLO\\Choice.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T02:22:30.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Image.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Image.cpp",
+              "RelativeDocumentMoniker": "DIABLO\\Image.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cppProject2025\\Projectcpp\\DIABLO\\Image.cpp",
+              "RelativeToolTip": "DIABLO\\Image.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T00:42:23.653Z",
               "EditorCaption": ""
             }
           ]
