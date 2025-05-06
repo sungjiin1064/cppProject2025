@@ -1,6 +1,6 @@
 #pragma once
 
-//#include "Common.h"
+#include "Common.h"
 #include "Image.h"
 
 class Character
@@ -27,6 +27,7 @@ public:
 		}
 	}
 
+	void SelectCharacter();
 	void SelectImage();
 	
 

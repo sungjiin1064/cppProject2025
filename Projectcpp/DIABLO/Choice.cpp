@@ -28,14 +28,6 @@ void SelectCharacter()
 	}
 }
 
-void SelectImage()
-{
-	GoToXY(9, 9);
-	cout << SwordIdle << endl;
-	GoToXY(20, 9);
-	cout << ArrowIdle << endl;
-
-}
 
 
 

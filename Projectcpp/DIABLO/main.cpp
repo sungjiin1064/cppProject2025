@@ -1,6 +1,6 @@
 
 #include "Common.h"
-#include "Choice.h"
+#include "Character.h"
 
 int main()
 {
@@ -8,6 +8,8 @@ int main()
 	Paladin    pal = { "ÆÈ¶óµò" };
 	Amazon     ama = { "¾Æ¸¶Á¸" };
 	Sorcerress so = { "¼Ò¼­¸®½º" };	*/
+
+	Character Barbarian = {};
 
 	SelectCharacter();
 }
