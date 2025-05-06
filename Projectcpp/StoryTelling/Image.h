@@ -66,9 +66,7 @@ public:
 			if (currentX < 0)
 			{
 				currentX = 0;
-			}
-
-			
+			}				
 
 			for (int j = 0;j < height;j++)
 			{

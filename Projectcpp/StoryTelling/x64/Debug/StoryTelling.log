@@ -1,10 +1,5 @@
-﻿  Image.cpp
-C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\StoryTelling\Image.h(29,15): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Image.cpp'을(를) 컴파일하는 중)
-  
-  main.cpp
+﻿  main.cpp
 C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\StoryTelling\Image.h(29,15): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
-  코드를 생성하고 있습니다...
   StoryTelling.vcxproj -> C:\Users\Administrator\Desktop\cppProject2025\Projectcpp\x64\Debug\StoryTelling.exe
